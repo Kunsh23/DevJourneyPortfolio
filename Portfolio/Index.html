@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+</head>
+<body>
+
+    <!------- HEADER ------->
+    <div class="header" id="header">
+        <!----- NAVIGATION ----->
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <span class="nav__logo-circle">A</span>
+                <span class="nav__logo-name">Alex</span>
+            </a>
+
+            <div class="nav__menu show-menu" id="nav-menu">
+                <span class="nav__title">Menu</span>
+
+                <h3 class="nav__name">Alex</h3>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About me</a>
+                    </li>
+
+                    <!-- <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li> -->
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certification" class="nav__link">Certifications</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#faq" class="nav__link">FAQs</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link nav__link-button">Contact me</a>
+                    </li>
+                </ul>
+
+                <!-- Close Button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__button">
+                <!-- Theme button  -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!------- MAIN --------->
+    <div class="main">
+        <!------- HOME ------->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <h1 class="home__name">
+                    Alex
+                </h1>
+
+                <div class="home__perfil">
+                    <div class="home__image">
+                        <img src="img/home-perfil.jpg" alt="image" class="home__img">
+                        <div class="home__shadow"></div>
+
+                        <img src="img/curved-arrow.svg" alt="" class="home__arrow">
+                        <img src="img/random-lines.svg" alt="" class="home__line">
+
+                        <div class="geometric-box"></div>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://www.github.com/" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__info">
+                    <p class="home__description">
+                        <b>Frontend Developer</b>,  with expertise in web development and design, delivering top-notch projects for quality-driven outcomes.
+                    </p>
+
+                    <a href="#about" class="home__scroll">
+                        <div class="home__scroll-box">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+
+                        <span class="home__scroll-text">Scroll Down</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!------ ABOUT ------->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <h2 class="section__title-1">
+                    <span>About me.</span>   
+                </h2>
+
+                <div class="about__perfil">
+                    <div class="about__image">
+                        <img src="img/about-perfil.jpg" alt="image" class="about__img">
+
+                        <div class="about__shadow"></div>
+
+                        <div class="geometric-box"></div>
+                        <img src="img/random-lines.svg" alt="" class="about__line">
+                        <div class="about__box"></div>
+                    </div>
+                </div>
+
+                <div class="about__info">
+                    <p class="about__description">
+                        Enthusiastic about <b>web development</b> with hands-on experience in <b>HTML, CSS, and JS</b>, I've successfully completed projects, showcasing my dedication to crafting engaging and functional websites.
+                    </p>
+
+                    <ul class="about___list">
+                        <li class="about__item">
+                            <b>My Skills Are :</b> HTML, CSS, JavaScript, Git & Github, React (Begginer level).
+                        </li>
+                    </ul>
+
+                    <div class="about__buttons">
+                        <a href="#contact" class="button">
+                            <i class="ri-send-plane-line"></i>Contact me
+                        </a>
+
+                        <a href="https://www.linkedin.com" target="_blank" class="button__ghost">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----- SERVICES ----->
+        <section class="services section" id="services">
+            <h2 class="section__title-2">
+                <span>Services.</span>
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-earth-line"></i>
+                        </div>
+
+                        <h2 class="services__title">Website Development</h2>
+
+                        <p class="services__description">
+                            Craft bespoke websites that uniquely reflect your brand or business, blending creativity with functionality.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-palette-line"></i>
+                        </div>
+
+                        <h2 class="services__title">User Interface (UI) Design</h2>
+
+                        <p class="services__description">
+                            Elevate user experiences through visually captivating and intuitively designed interfaces, ensuring lasting impressions.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-code-line"></i>
+                        </div>
+
+                        <h2 class="services__title">Frontend Development</h2>
+
+                        <p class="services__description">
+                            Transform designs into dynamic and responsive websites with seamless HTML, CSS, and JavaScript integration.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-device-line"></i>
+                        </div>
+
+                        <h2 class="services__title">Responsive Design Retrofitting</h2>
+
+                        <p class="services__description">
+                            Upgrade existing websites to meet the demands of today's diverse device landscape, ensuring a consistent and engaging user experience across platforms.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-shopping-cart-line"></i>
+                        </div>
+
+                        <h2 class="services__title">Starter E-commerce Presence</h2>
+
+                        <p class="services__description">
+                            Initiate your online store with a simple yet effective e-commerce setup, integrating essential features for a user-friendly shopping experience.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!----- PROJECTS ----->
+        <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+                <span>Projects.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <!-- <img src="img/project-1.jpg" alt="image" class="projects__img"> -->
+                        <image src="img/project-1.jpg" alt="image" class="projects__image">
+
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Restaurant Website</h2>
+
+                        <p class="projects__description">
+                            Project that you carry out in the design and structure of the layout, showing the design at the client's request.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>View
+                        </a>
+
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i>View
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="img/project-2.jpg" alt="image" class="projects__img">
+
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">App</h3>
+                        <h2 class="projects__title">Yoga App</h2>
+
+                        <p class="projects__description">
+                            Project that you carry out in the design and structure of the layout, showing the design at the client's request.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>View
+                        </a>
+
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i>View
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="img/project-3.jpg" alt="image" class="projects__img">
+
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">App</h3>
+                        <h2 class="projects__title">Fast Food App</h2>
+
+                        <p class="projects__description">
+                            Project that you carry out in the design and structure of the layout, showing the design at the client's request.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>View
+                        </a>
+
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i>View
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="img/project-1.jpg" alt="image" class="projects__img">
+
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Coffee Shop Website</h2>
+
+                        <p class="projects__description">
+                            Project that you carry out in the design and structure of the layout, showing the design at the client's request.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>View
+                        </a>
+
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i>View
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="img/project-2.jpg" alt="image" class="projects__img">
+
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Website</h3>
+                        <h2 class="projects__title">Barber Shop Website</h2>
+
+                        <p class="projects__description">
+                            Project that you carry out in the design and structure of the layout, showing the design at the client's request.
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>View
+                        </a>
+
+                        <a href="https://dribbble.com/" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i>View
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!------- CERTIFICATION SECTION------->
+        <section class="certification section" id="certification">
+            <h2 class="section__title-2">
+                <span>Certifications.</span>
+            </h2>
+        
+            <div class="certification__container container grid">
+                <!-- 1 -->
+                <article class="certification__card">
+                    <div class="certification__border"></div>
+        
+                    <div class="certification__content">
+                        <div class="certification__image one">
+                                <img src="img/C1.png" alt="Certification Image" class="certification__img">
+                        </div>
+        
+                        <div class="certification__text">
+                            <h2 class="certification__title">The Fundamentals Of Digital Marketing By Google</h2>
+        
+                            <p class="certification__description">
+                                Demonstrates mastery of essential digital skills, bolstering my professional profile with a solid foundation in online marketing, data, and tech expertise.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+        
+                <!-- 2 -->
+                <article class="certification__card">
+                    <div class="certification__border"></div>
+        
+                    <div class="certification__content">
+                        <div class="certification__text">
+                            <h2 class="certification__title">Responsive Web Design By Freecodecamp</h2>
+        
+                            <p class="certification__description">
+                                Validates my proficiency in full-stack web development, attesting to my capabilities in building dynamic and responsive web applications, adding depth to my technical skill set in the field.
+                            </p>
+                        </div>
+
+                        <div class="certification__image two">
+                            <img src="img/C2.png" alt="Certification Image" class="certification__img">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!------- FAQ SECTION ------->
+        <section class="faq-section" id="faq">
+            <h2 class="section__title-1">
+                <span>FAQs.</span>
+            </h2>
+    
+            <script>
+                function toggleFAQ(element) {
+                element.classList.toggle("active");
+                var answer = element.querySelector(".faq-answer");
+                answer.classList.toggle("active");
+                }
+            </script>
+            
+            <div class="faq-container">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>What services do you offer?</h3>
+                    <div class="faq-answer">
+                        <p>We offer a range of services including web development, design, and consultation. Our goal is to provide solutions tailored to your needs.</p>
+                    </div>
+                </div>
+    
+                <!-- Add the "services__card" class to the desired FAQ items for ScrollReveal -->
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>How can I contact you?</h3>
+                    <div class="faq-answer">
+                        <p>You can contact us through the "Contact Me" section on our website. We typically respond within 24 hours.</p>
+                    </div>
+                </div>
+    
+                <!-- Add the "services__card" class to the desired FAQ items for ScrollReveal -->
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>Is your website mobile-friendly?</h3>
+                    <div class="faq-answer">
+                        <p>Yes, our website is designed to be fully responsive, ensuring a seamless experience across various devices, including mobile phones and tablets.</p>
+                    </div>
+                </div>
+    
+                <!-- Add the "services__card" class to the desired FAQ items for ScrollReveal -->
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>What technologies do you specialize in?</h3>
+                    <div class="faq-answer">
+                        <p>We specialize in a variety of technologies, including HTML, CSS, JavaScript, and popular web frameworks. Our team stays updated with the latest industry trends.</p>
+                    </div>
+                </div>
+    
+                <!-- Add the "services__card" class to the desired FAQ items for ScrollReveal -->
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h3>How long does it take to complete a project?</h3>
+                    <div class="faq-answer">
+                        <p>The project timeline varies based on the scope and complexity. We provide estimated timelines during the consultation phase and strive to deliver projects in a timely manner.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------ CONTACT ----->
+        <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span>Contact me.</span>
+                    </h2>
+
+                    <p class="contact__description-1">
+                        I will read all emails. Send me any message you want and I'll get back to you.
+                    </p>
+
+                    <p class="contact__description-2">
+                        I need your <b>Name</b> and <b>Email Address</b>, but you won't recieve anything other than your reply.
+                    </p>
+
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Send Me A Message
+                    </h2>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
+                                <label for="name" class="contact__label">First Name</label>
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
+                                <label for="email" class="contact__label">Email Address</label>
+                            </div>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
+                            <label for="subject" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <input type="text" name="user_message" class="contact__input" id="message" required placeholder="Message">
+                            <label for="message" class="contact__label">Message</label>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button button">
+                            <i class="ri-send-plane-line"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact__social">
+                    <img src="img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                    <div class="contact__social-data">
+                        <div>
+                            <p class="contact__social-description-1">
+                                Does not send emails
+                            </p>
+
+                            <p class="contact__social-description-2">
+                                Write me on my social networks 
+                            </p>
+                        </div>
+
+                        <div class="contact__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/" target="_blank" class="contact__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!------- FOOTER ------->
+    <div class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+
+                <li>
+                    <a href="#services" class="footer__link">Services</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                Copyright &#169; All Rights Reserved.
+                <a href="">KS</a>
+            </span>
+        </div>
+    </div>
+
+    <!----- SCROLL UP ------>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!---- SCROLL REVEAL --->
+    <script src="scrollreveal.min.js"></script>
+
+    <!------- EMAIL JS ----->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+
+    <!-- experiment -->
+
+    
+    
+    
+    
+
+   
+    
+
+</body>
+</html>
